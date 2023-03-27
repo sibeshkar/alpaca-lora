@@ -65,8 +65,10 @@ python finetune.py \
 
 Usage: pass
 
+```
 --wandb_project "name"
 --run_name "name" (optional)
+```
 
 ### Inference (`generate.py`)
 
