@@ -41,6 +41,7 @@ python finetune.py \
 ```
 
 We can also tweak our hyperparameters:
+
 ```bash
 python finetune.py \
     --base_model 'decapoda-research/llama-7b-hf' \
@@ -59,6 +60,13 @@ python finetune.py \
     --train_on_inputs \
     --group_by_length
 ```
+
+### WAndB usage
+
+Usage: pass
+
+--wandb_project "name"
+--run_name "name" (optional)
 
 ### Inference (`generate.py`)
 
